@@ -1,4 +1,5 @@
-from random import choice, randint
+from random import choice, randint, seed
+from time import time
 
 
 # create class Address
@@ -182,7 +183,7 @@ def sort_pop(original_pop, switch):
                 return college
             elif switch == 1 and len(college) == 3:
                 return college
-            elif switch == 2 and len(college) == 5:
+            elif switch == 2 and len(college) == 1:
                 return college
             population_copy.remove(population_copy[min_index])
 
@@ -217,8 +218,7 @@ def alg_gen(informed_population):
         informed_population = elitism(mutation(pmx(informed_population)))
         if informed_population[0] == informed_population[-1]:
             terminator += 1
-            if terminator >= 2:
-                print("Em andamento...")
+            if terminator >= 3:
                 return informed_population[0]
 
 
@@ -243,6 +243,8 @@ def permute_list(informed_list):
 
 
 def main():
+    seed()
+    tic = time()
     matriz = open('Entrada.txt')
     matrix = matriz.readlines()
     address_set, counter = create_matrix_coordinates(matrix)  # creates initial coordinates list
@@ -253,18 +255,18 @@ def main():
         # crossing over and repeating the genetic algorithm
         new_pop = elitism(mutation(pmx(sorted_initial_pop)))  # crossover evaluated pop -> do mutation -> elite of 3
         pop = []
-        for samples in range(5):
+        for samples in range(1):
+
             pop.append(alg_gen(
                 new_pop))  # runs the entire genetic algorithm 10 times and keep the best rest results of each "batch"
             print(f"Resultado {samples + 1} finalizado!")
 
         # final evaluation
         sorted_final_list = sort_pop(pop, 2)
-
-        print("Escolhendo melhor resultado...")
-        print("Feito!")
+        toc = time()
+        print(f'Execution time was approx: {int(toc - tic)}')
         print(
-            f"O menor caminho encontrado foi: {show(sorted_final_list, 0)} com distancia {result_list(sorted_final_list)[0]}")
+            f"The shortest path found was: {show(sorted_final_list, 0)} with distance {result_list(sorted_final_list)[0]}")
     else:  # if there's less than 5 relevant points in the matrix do brute force
         # permutation of address_set points
         permuted_list = permute_list(address_set)
@@ -281,7 +283,7 @@ def main():
         min_index = (min_distance_index(results_list))
 
         print(
-            f"O menor caminho encontrado foi: {show(permuted_list, min_index)}, com distancia {results_list[min_index]}")
+            f"The shortest path was: {show(permuted_list, min_index)}, with distance {results_list[min_index]}")
 
 
 if __name__ == "__main__":

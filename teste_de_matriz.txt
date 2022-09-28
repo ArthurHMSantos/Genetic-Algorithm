@@ -1,0 +1,167 @@
+#Matriz teste de 15 pontos
+com elitismo: 1.3s 45.6d
+sem elitismo: 2.4s 49d
+
+0 0 0 0 D 0 0
+0 A 0 0 0 0 I
+0 0 k 0 C H 0
+R 0 B 0 0 0 J
+0 F 0 E 0 G 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 L
+0 0 0 0 0 0 0
+0 0 0 0 0 0 N
+0 0 0 0 0 O M
+
+
+#Matriz teste de 20 pontos
+com elitismo: 3s 77d
+sem elitismo: 3.7s 78d
+
+0 0 0 0 D 0 0
+0 A 0 0 0 0 I
+0 0 k 0 C H 0
+R 0 B 0 0 0 J
+0 F 0 E 0 G 0
+0 0 0 0 0 0 0
+0 T 0 0 0 0 L
+0 0 0 0 U 0 0
+S 0 0 0 0 0 N
+0 Q 0 P 0 O M
+
+#Matriz teste de 25 pontos
+com elitismo: 4.3s 88d
+sem elitismo: 5s 92d
+
+0 0 0 0 D 0 0
+0 A 0 Z 0 0 I
+0 0 k 0 C H 0
+R 0 B 0 0 0 J
+0 F 0 E 0 G 0
+Y 0 0 0 W 0 0
+0 T 0 0 0 0 L
+0 0 0 0 U V 0
+S 0 X 0 0 0 N
+0 Q 0 P 0 O M
+
+seed 3657 O menor caminho encontrado foi: RYBEPUVGkFWXQSMNOLJHDCIZATR com distancia 82
+
+#Matriz teste de 30 pontos
+com elitismo: 4.9s 130d
+sem elitismo: 6.9s 132d
+
+0 0 0 0 D 0 0 A1 0 0 0 B1
+0 A 0 Z 0 0 I C1 0 0 D1 0
+0 0 k 0 C H 0 0 0 0 F1 0
+R 0 B 0 0 0 J 0 0 0 0 0
+0 F 0 E 0 G 0
+Y 0 0 0 W 0 0
+0 T 0 0 0 0 L
+0 0 0 0 U V 0
+S 0 X 0 0 0 N
+0 Q 0 P 0 O M
+
+#Matriz teste de 35 pontos
+com elitismo: 7s 164d
+sem elitismo: 8s 172d
+
+0 0 0 0 D 0 0 A1 0 0 0 B1
+0 A 0 Z 0 0 I C1 0 0 D1 0
+0 0 k 0 C H 0 0 0 0 F1 0
+R 0 B 0 0 0 J 0 0 0 0 J1
+0 F 0 E 0 G 0 G1 H1 0 0 0
+Y 0 0 0 W 0 0 0 0 M1 0
+0 T 0 0 0 0 L O1 0 0 0 0
+0 0 0 0 U V 0
+S 0 X 0 0 0 N
+0 Q 0 P 0 O M
+
+
+
+#Matriz teste de 40 pontos
+com elitismo: 9s 188m
+sem elitismo: 10s 196m
+
+0 0 0 0 D 0 0 A1 0 0 0 B1
+0 A 0 Z 0 0 I C1 0 0 D1 0
+0 0 k 0 C H 0 0 E1 0 F1 0
+R 0 B 0 0 0 J 0 0 I1 0 J1
+0 F 0 E 0 G 0 G1 H1 0 0 0
+Y 0 0 0 W 0 0 K1 L1 M1 N1
+0 T 0 0 0 0 L O1 0 0 0 0
+0 0 0 0 U V 0
+S 0 X 0 0 0 N
+0 Q 0 P 0 O M
+
+
+#Teste de matriz de 50 pontos
+com elitismo: 11s 224d
+sem elitismo: 16.5s 251d
+
+0 0 0 0 D 0 0 A1 0 0 0 B1
+0 A 0 Z 0 0 I C1 0 0 D1 0
+0 0 k 0 C H 0 0 E1 0 F1 0
+R 0 B 0 0 0 J 0 0 I1 0 J1
+0 F 0 E 0 G 0 G1 H1 0 0 0
+Y 0 0 0 W 0 0 K1 L1 M1 N1
+0 T 0 0 0 0 L O1 0 0 Z1 0
+0 0 0 0 U V 0 0 P1 0 Q1 0
+S 0 X 0 0 0 N S1 T1 0 U1 0
+0 Q 0 P 0 O M V1 W1 X1 0 Y1
+
+
+# 60 pontos matrix
+com elitismo: 17s 314d
+sem elitismo: 22s 331d
+
+0 0 A2 0 D 0 0 A1 0 0 0 B1 F2
+0 A 0 Z 0 0 I C1 0 0 D1 0 G2
+0 0 k 0 C H 0 0 E1 0 F1 0 0
+R 0 B 0 0 0 J 0 0 I1 0 J1 0
+0 F 0 E 0 G 0 G1 H1 0 0 0 0 H2
+Y 0 0 0 W 0 0 K1 L1 M1 N1 0 I2
+0 T 0 0 0 0 L O1 0 0 Z1 0 0
+0 0 B2 0 U V 0 0 P1 0 Q1 0
+S 0 X 0 0 0 N S1 T1 0 U1 0
+0 Q 0 P 0 O M V1 W1 X1 0 Y1
+C2 0 0 0 0 D2 E2 0 0 0 J1 0
+
+
+#Matriz teste de 80 pontos
+com elitismo: 31s, 542d
+sem elitismo: 33s, 551D
+
+0 0 A2 0 D 0 0 A1 0 0 0 B1 F2 0 0 0 0 0 Y2 0
+0 A 0 Z 0 0 I C1 0 0 D1 0 G2 0 X2 0 0 0 0 0
+0 0 k 0 C H 0 0 E1 0 F1 0 0 M2 0 0 0 Z2 0 0
+R 0 B 0 N2 0 J 0 0 I1 0 0 0 0 0 0 0 0 A3 0 0
+0 F 0 E 0 G 0 G1 H1 0 0 0 0 H2 0 T2 0 0 0
+Y 0 0 0 W 0 0 K1 L1 M1 N1 0 I2 0 0 0 B3 0 0
+0 T 0 0 0 0 L O1 0 0 Z1 0 K2 0 0 0 C3 0 0 0
+0 0 B2 0 U V 0 0 P1 0 Q1 0 0 J2 0 0 0 0 0
+S 0 X 0 0 0 N S1 T1 0 U1 0 0 W2 0 0 0 D3 0
+0 Q 0 P 0 O M V1 W1 X1 0 Y1 0 0 0 0 0 0 0
+C2 0 0 0 0 D2 E2 0 0 0 J1 0 L2 0 0 0 0 0
+O2 0 0 0 P2 Q2 0 0 0 V2 0 U2 0 S2 0 E3 0 0
+
+
+#Matriz teste de 100 pontos
+com elitismo: 38s, 803d
+sem elitismo: 50s, 811d
+
+I3 0 A2 0 D 0 0 A1 0 0 0 B1 F2 0 0 H3 0 0 Y2 0 0
+0 A 0 Z 0 0 I C1 0 0 D1 0 G2 0 X2 0 0 0 M3 0 0 0
+0 0 k 0 C H 0 0 E1 0 F1 0 0 M2 0 0 0 Z2 0 0 Q3 0
+R 0 B 0 N2 0 J 0 0 I1 0 0 0 0 0 0 0 0 A3 0 0 0 0
+0 F 0 E 0 G 0 G1 H1 0 0 0 0 H2 0 T2 0 0 0 0 P3 0
+Y 0 0 0 W 0 0 K1 L1 M1 N1 0 I2 0 0 0 B3 0 0 V3 0
+J3 T 0 0 0 0 L O1 0 0 Z1 0 K2 0 W3 0 C3 0 N3 0 0
+0 0 B2 0 U V 0 0 P1 0 Q1 0 0 J2 0 G3 0 0 0 S3 0
+S 0 X 0 X3 0 N S1 T1 0 U1 0 0 W2 0 0 0 D3 0 0 Z3
+0 Q 0 P 0 O M V1 W1 X1 0 Y1 0 0 0 F3 0 0 0 O3 0
+C2 0 Y3 L3 0 D2 E2 0 0 0 J1 0 L2 0 0 0 K3 0 0 U3
+O2 0 0 0 P2 Q2 0 0 0 V2 0 U2 0 S2 0 E3 0 0 T3 0
+
+
+Resultados: com elitismo o tempo de exec era menor, com um resultado medio maior
+sem elitismo o tempo de execução era maior, com um resultado medio menor
